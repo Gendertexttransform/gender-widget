@@ -132,6 +132,7 @@
         output.textContent = "Erreur lors de l'appel à l'API.";
         timingDisplay.textContent = "Temps : —";
         costDisplay.textContent = "Coût : —";
+        console.error("Erreur API OpenAI :", e);
       }
     });
   });
