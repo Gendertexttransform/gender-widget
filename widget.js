@@ -1,4 +1,5 @@
 (function () {
+(function () {
   const config = window.genderWidgetConfig || {};
   const apiKey = config.apiKey || "VOTRE_CLE_API_ICI";
   const position = config.position || "bottom-right";
